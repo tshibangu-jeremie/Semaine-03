@@ -24,3 +24,4 @@ console.log(date1 === date2);
 // expecded ouput : faise;
 console.log(date1 - date2);
 // expected ouput : 0.
+for(let mois= 1; mois<12)
