@@ -12,6 +12,13 @@ a { color: white; font-size: 16px; line-height: 50px; text-decoration: none; }
 /* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
 
 /* EXERCICE 3 */
-section{
-  display:block;
+ul{
+  display:flex;
+  margin-top: 1%;
+}
+li{
+  width:23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

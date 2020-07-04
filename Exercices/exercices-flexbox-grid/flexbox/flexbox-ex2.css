@@ -11,8 +11,26 @@ span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: b
 
 /* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
 
-/* EXERCICE 2 */
+/* EXERCICE 2 */ /* faire classer les colonnes horinzotalement tjrs en respectant les consignes
 /* Vous aurez besoin du pseudo-sélecteur "last-child". Faites une petite recherche Google. */
 section{
-  display:block;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  height: 100vh
+  justify-content: espace-between;
 }
+div{
+  height: 23vh;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div:nth-last-child{
+  height: 100%;
+}
+/*S
