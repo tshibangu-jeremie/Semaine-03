@@ -11,5 +11,10 @@ footer { background-color: #073b4c; }
 
 /* EXERCICE 3 */
 .container {
-  display: block;
+  display: grid;
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-columns: 20% auto 20%;
+}
+header,footer {
+  grid-column: 1/4;
 }
